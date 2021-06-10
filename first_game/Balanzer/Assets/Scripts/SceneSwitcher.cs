@@ -13,4 +13,8 @@ public class SceneSwitcher : MonoBehaviour
     public static void SwitchToGame() {
         SceneManager.LoadScene("GameView");
     }
+
+    public static void SwitchToGameOver() {
+        //SceneManager.LoadScene("GameOver");
+    }
 }

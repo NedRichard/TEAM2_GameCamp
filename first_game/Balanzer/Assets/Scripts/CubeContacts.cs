@@ -9,5 +9,6 @@ public class CubeContacts : MonoBehaviour
         Debug.Log("Game Over!");
         GameManager.gameOver = true;
         SceneSwitcher.SwitchToMain();
+        //SceneSwitcher.SwitchToGameOver();
     }
 }

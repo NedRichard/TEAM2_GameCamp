@@ -16,20 +16,20 @@ public class SpawnController : MonoBehaviour
     public float spawnClock = 0f;
     public float resetStageClock = 0f;
 
-    public GameObject Cube;
-    public GameObject LongCube;
     public GameObject Purplecube;
     public GameObject YellowCube;
+    public GameObject GreenTriangle;
+    public GameObject BlueCube;
 
 
     // Start is called before the first frame update
     void Start()
     {
 
-        prefabList.Add(Cube);
-        prefabList.Add(LongCube);
         prefabList.Add(Purplecube);
         prefabList.Add(YellowCube);
+        prefabList.Add(GreenTriangle);
+        prefabList.Add(BlueCube);
 
     }
 
@@ -50,8 +50,6 @@ public class SpawnController : MonoBehaviour
                     spawnClock = 0f;
                     SpawnPiece();
                     piecesSpawned += 1;
-                    //Debug.Log("Spawned a cube!");
-                    //Debug.Log("Pieces spawned: " + piecesSpawned);
                     spawnCube = false;
                 }
 
@@ -76,10 +74,7 @@ public class SpawnController : MonoBehaviour
 
         float spawnRange = Random.Range(-3f, 3f);
 
-        //Quaternion rot = Quaternion.Euler(-90f, -90f, 0);
-
-        //Instantiate(prefabList[index]);
-        piecesList.Add(Instantiate(prefabList[index], new Vector3(spawnRange, 10, 5), prefabList[index].transform.rotation));
+        piecesList.Add(Instantiate(prefabList[index], new Vector3(spawnRange, 15, 5), prefabList[index].transform.rotation));
 
     }
 
