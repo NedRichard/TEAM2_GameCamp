@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e09afb1425ee48147b6a5418c0ea0b7a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Polt
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 604131aad099af542a880d5166482b9b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
