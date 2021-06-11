@@ -20,6 +20,7 @@ public class SpawnController : MonoBehaviour
     public GameObject YellowCube;
     public GameObject GreenTriangle;
     public GameObject BlueCube;
+    public GameObject PinkCircle;
 
 
     // Start is called before the first frame update
@@ -30,6 +31,7 @@ public class SpawnController : MonoBehaviour
         prefabList.Add(YellowCube);
         prefabList.Add(GreenTriangle);
         prefabList.Add(BlueCube);
+        //prefabList.Add(PinkCircle);
 
     }
 

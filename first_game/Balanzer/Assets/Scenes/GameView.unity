@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4501732, g: 0.49775636, b: 0.5621919, a: 1}
+  m_IndirectSpecularColor: {r: 0.45017296, g: 0.4977557, b: 0.562191, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -873,7 +873,8 @@ MonoBehaviour:
   Purplecube: {fileID: 4740284497521670942, guid: ee8a9e295cf65d944b29db42b7b83f44, type: 3}
   YellowCube: {fileID: 8988776292686531282, guid: 671696d532e1d1c4b955baffca49fb25, type: 3}
   GreenTriangle: {fileID: 601025780320429311, guid: bf45a74c7cd2d2547843a9d84ea97d64, type: 3}
-  BlueCube: {fileID: 3700926006306406471, guid: d1a98e0cc9151b644ab922389ef1461e, type: 3}
+  BlueCube: {fileID: 7505757410360626856, guid: 95bf059dfd7ab664a94c6a87b51d1c56, type: 3}
+  PinkCircle: {fileID: 0}
 --- !u!4 &1764491021
 Transform:
   m_ObjectHideFlags: 0
