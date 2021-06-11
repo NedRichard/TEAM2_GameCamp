@@ -536,7 +536,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4a8b2924f19acd84ba41044147d505fe, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1059,10 +1059,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: '1. Move your plate with the mouse
 
-    2. Try to land all the pieces safely
+    2. Tilt the plate with arrow keys
 
     3.
-    don''t tip the plate!'
+    Try to land all the pieces safely
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fd18666c37c5cb04486b643365fea9e5, type: 2}
   m_sharedMaterial: {fileID: -8254370188305897763, guid: fd18666c37c5cb04486b643365fea9e5, type: 2}
