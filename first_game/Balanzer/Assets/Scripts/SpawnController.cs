@@ -31,7 +31,7 @@ public class SpawnController : MonoBehaviour
         prefabList.Add(YellowCube);
         prefabList.Add(GreenTriangle);
         prefabList.Add(BlueCube);
-        //prefabList.Add(PinkCircle);
+        prefabList.Add(PinkCircle);
 
     }
 

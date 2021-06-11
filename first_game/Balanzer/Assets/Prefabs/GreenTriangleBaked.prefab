@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8818417910679627636}
   - component: {fileID: -3240509667392915412}
   - component: {fileID: 4647076594486671617}
+  - component: {fileID: 8653029047037658385}
   m_Layer: 0
   m_Name: GreenTriangleBaked
   m_TagString: Untagged
@@ -126,3 +127,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 24
   m_CollisionDetection: 0
+--- !u!114 &8653029047037658385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601025780320429311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af78d853e5a88ed46baa09985f33ef9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

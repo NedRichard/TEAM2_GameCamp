@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8298219763648343933}
   - component: {fileID: 6771206205535691074}
   - component: {fileID: 6907523799727601650}
+  - component: {fileID: -5552301612085834547}
   m_Layer: 0
   m_Name: MustacheRectangle
   m_TagString: Untagged
@@ -112,3 +113,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
+--- !u!114 &-5552301612085834547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505757410360626856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af78d853e5a88ed46baa09985f33ef9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

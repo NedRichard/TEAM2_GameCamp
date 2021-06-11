@@ -874,7 +874,7 @@ MonoBehaviour:
   YellowCube: {fileID: 8988776292686531282, guid: 671696d532e1d1c4b955baffca49fb25, type: 3}
   GreenTriangle: {fileID: 601025780320429311, guid: bf45a74c7cd2d2547843a9d84ea97d64, type: 3}
   BlueCube: {fileID: 7505757410360626856, guid: 95bf059dfd7ab664a94c6a87b51d1c56, type: 3}
-  PinkCircle: {fileID: 0}
+  PinkCircle: {fileID: 1842748748670645081, guid: 49cfdbf41d8c3be41ac5614fa0e0954c, type: 3}
 --- !u!4 &1764491021
 Transform:
   m_ObjectHideFlags: 0
