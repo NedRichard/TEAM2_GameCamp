@@ -8,7 +8,6 @@ public class CubeContacts : MonoBehaviour
     void OnTriggerEnter() {
         Debug.Log("Game Over!");
         GameManager.gameOver = true;
-        SceneSwitcher.SwitchToMain();
-        //SceneSwitcher.SwitchToGameOver();
+        SceneSwitcher.SwitchToGameOver();
     }
 }
